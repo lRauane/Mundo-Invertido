@@ -9,6 +9,8 @@
 # 📍 Tecnologias 
 - HTML5
 - CSS3
+- JavaScript
+- Firebase
 
 # 📍 Explicação do projeto
 - semana Front-End - Mundo Invertido da Digital Innovation One Inc. sobre como criar um tema dinâmico com CSS.
