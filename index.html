@@ -10,6 +10,7 @@
 
     <!--css externo-->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 
 <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
@@ -106,7 +107,7 @@
                         <input type="email" name="email" id="txtEmail">
 
                         <label for="level">Level</label>
-                        <input type="text" name="level" id="txtLevel">
+                        <input type="number" name="level" id="txtLevel">
 
                         <label for="character">Personagem</label>
                         <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
@@ -127,9 +128,6 @@
         <img src="assets/images/footer/logo.svg" alt="Logotipo da DIO">
     </footer>
 
-
-
-    <script type="module" src="assets/js/main.js"></script>
 
     <script>
         window.addEventListener('click', function () {
@@ -155,6 +153,8 @@
             audio.volume = 0.2;
         }
     </script>
+
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>

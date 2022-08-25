@@ -1,0 +1,134 @@
+@media (min-width:450px) and (max-width:800px){
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    #section-stranger-things-trailer .video-frame {
+        margin-top: 30px;
+    }
+    #section-stranger-things-trailer .video-frame iframe {
+        position: relative;
+        top: 24px;
+    }
+    #section-stranger-things-trailer .section-texts {
+        width: 50%;
+        text-align: left;
+       
+    }
+    
+    #section-stranger-things-trailer .section-texts h2 {
+        max-width: 450px;
+        display: inline-block;
+    }
+
+    #section-stranger-thing-gallery .container h2 {
+        width: 750px; 
+        text-align: center;
+    }
+    #section-stranger-thing-gallery .gallery-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section-form .form-content h3 {
+        width: 600px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #section-form .form-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section-form h2{
+        margin-bottom: 20px;
+    }
+    #section-form p{
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    footer::before,
+footer::after{
+    content: '';
+    width: 200px;
+    height: 150px;
+}
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:450px){
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+
+    #section-stranger-things-trailer .video-frame {
+        margin-top: 30px;
+    }
+    #section-stranger-things-trailer .video-frame iframe {
+        position: relative;
+        top: 24px;
+        width: 300px;
+    }
+    #section-stranger-things-trailer .section-texts {
+        width: 50%;
+        text-align: left;
+       
+    }
+
+    #section-stranger-thing-gallery .container h2 {
+        width: 400px; 
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    #section-stranger-thing-gallery .gallery-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section-form .form-content h3 {
+        width: 400px; 
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    #section-form .form-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section-form h2{
+        width: 400px; 
+        text-align: left;
+        margin-bottom: 30px;margin-bottom: 20px;
+    }
+    #section-form p{
+        width: 400px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    footer p{
+        max-width: 400px;
+        margin-bottom: 24px;
+    }
+    footer::before,
+footer::after{
+    content: '';
+    width: 200px;
+    height: 150px;
+}
+}
